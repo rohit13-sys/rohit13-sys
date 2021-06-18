@@ -71,16 +71,15 @@ public class InterfaceMain {
 		System.out.println("\n*******************************\n");
 
 		System.out.println("Problem statement VI:\n");
-		//HumAN rOBOT
-		move=new HumanRobot();
-		((HumanRobot)move).run();
-		((HumanRobot)move).move();
-		((HumanRobot)move).walk();
-		((HumanRobot)move).jump();
-		((HumanRobot)move).useArtificialIntelligence();
-		((HumanRobot)move).senseInfo();
-		((HumanRobot)move).processData();
-		
+		// HumAN rOBOT
+		move = new HumanRobot();
+		((HumanRobot) move).run();
+		((HumanRobot) move).move();
+		((HumanRobot) move).walk();
+		((HumanRobot) move).jump();
+		((HumanRobot) move).useArtificialIntelligence();
+		((HumanRobot) move).senseInfo();
+		((HumanRobot) move).processData();
 
 	}
 

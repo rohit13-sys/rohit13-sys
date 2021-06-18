@@ -11,7 +11,7 @@ public class FactoryMain {
 		Scanner sc=new Scanner(System.in);
 		String str=sc.nextLine();
 		
-		Car car=CarFactory.newcar(str);
+		Car car=CarFactory.newCar(str);
 		car.start();
 		car.stop();
 		car.run();

@@ -2,7 +2,7 @@ package Day_5.com.pheonix.designpatterns.factory.car;
 
 public class CarFactory {
 
-	public static Car newcar(String carType) {
+	public static Car newCar(String carType) {
 		if (carType.equals("sedan")) {
 			return new SedanCar();
 		}
@@ -21,4 +21,5 @@ public class CarFactory {
 			return null;
 		}
 	}
+
 }
