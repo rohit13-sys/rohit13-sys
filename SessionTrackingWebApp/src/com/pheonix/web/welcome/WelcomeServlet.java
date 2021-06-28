@@ -41,12 +41,12 @@ public class WelcomeServlet extends HttpServlet {
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		PrintWriter out = response.getWriter();
-		String myUrl = "products";
+		String myUrl =response.encodeURL("products") ;
 		String userName = request.getParameter("un");
 		HttpSession session = request.getSession();
 
 		// Session TimeOut
-		session.setMaxInactiveInterval(10);
+		session.setMaxInactiveInterval(3);
 
 		// setting username in session
 		session.setAttribute("userName", userName);
